@@ -36,6 +36,7 @@ def get_avg(url):
 
 
 driver = webdriver.Chrome()
+#name = Enter from user
 name = "DavidGoffin"
 url = "http://www.tennisabstract.com/cgi-bin/player.cgi?p="+name+"&f=&view=singles"
 print url
